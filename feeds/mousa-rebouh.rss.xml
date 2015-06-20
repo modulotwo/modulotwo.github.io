@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My github page</title><link>http://modulotwo.github.io/</link><description></description><atom:link href="http://modulotwo.github.io/feeds/mousa-rebouh.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 24 Jun 2015 00:00:00 -0700</lastBuildDate><item><title>Whatever</title><link>http://modulotwo.github.io/whatever.html</link><description>&lt;p&gt;This is whatever i want. 
+Or it may look like this...&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Wed, 24 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-24:whatever.html</guid></item><item><title>My favorite language</title><link>http://modulotwo.github.io/my-favorite-language.html</link><description>&lt;h2&gt;What to say about my favorite language&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;first&lt;/li&gt;
+&lt;li&gt;second&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;third&lt;/p&gt;
+&lt;p&gt;This is some text i tabbed over. How does it look?&lt;/p&gt;
+&lt;h1&gt;not my favorite language&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;german&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;mandarin&lt;/li&gt;
+&lt;li&gt;bambara&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-19:my-favorite-language.html</guid></item></channel></rss>
