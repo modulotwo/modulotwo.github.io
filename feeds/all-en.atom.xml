@@ -55,8 +55,8 @@ The number &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; corresponds to the re
 &lt;p&gt;Every complex number can be written uniquely in algebraic form as &lt;span class="math"&gt;\(a+bi\)&lt;/span&gt; where &lt;span class="math"&gt;\(a,b\)&lt;/span&gt; are real numbers. The real number &lt;span class="math"&gt;\(a\)&lt;/span&gt; is called the &lt;em&gt;real part&lt;/em&gt; of &lt;span class="math"&gt;\(z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Re(z)\)&lt;/span&gt;, and the real number &lt;span class="math"&gt;\(b\)&lt;/span&gt; is called the *imaginary part&lt;span class="math"&gt;\( of $z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Im(z)\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;modulus&lt;/strong&gt; of a complex number &lt;span class="math"&gt;\(z=a+bi\)&lt;/span&gt; as &lt;span class="math"&gt;\(|z| = \sqrt{a^2+b^2}\)&lt;/span&gt;, gives the distance from the origin to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;Given the complex number &lt;span class="math"&gt;\(z = a+bi\)&lt;/span&gt;, we define the complex number &lt;span class="math"&gt;\(a-bi\)&lt;/span&gt; as its conjugate which we denote &lt;span class="math"&gt;\(\bar{z}\)&lt;/span&gt;. &lt;/p&gt;
-&lt;p&gt;Note that &lt;span class="math"&gt;\(|z| = |\bar{z}|\)&lt;/span&gt; since the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; is equal to the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,-b)\)&lt;/span&gt;. &lt;/p&gt;
-&lt;p&gt;Also note that &lt;span class="math"&gt;\(|z|^2 = z\bar{z}\)&lt;/span&gt;, and the modulus of a complex number satisfies the triangle inequality i.e. &lt;span class="math"&gt;\(|z+w| \le |z| + |w|\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Note that &lt;span class="math"&gt;\(|z| = |\bar{z}|\)&lt;/span&gt;. Why? &lt;/p&gt;
+&lt;p&gt;Note that &lt;span class="math"&gt;\(|z|^2 = z\bar{z}\)&lt;/span&gt;, and the modulus of a complex number satisfies the triangle inequality i.e. &lt;span class="math"&gt;\(|z+w| \le |z| + |w|\)&lt;/span&gt;. &lt;/p&gt;
 &lt;h3&gt;Trigonometric form&lt;/h3&gt;
 &lt;h3&gt;Polar form&lt;/h3&gt;
 &lt;h2&gt;Some plots&lt;/h2&gt;
@@ -68,19 +68,26 @@ The number &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; corresponds to the re
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;## Error in library(fields): there is no package called &amp;#39;fields&amp;#39;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Loading&lt;/span&gt; &lt;span class="nx"&gt;required&lt;/span&gt; &lt;span class="kr"&gt;package&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;spam&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Loading&lt;/span&gt; &lt;span class="nx"&gt;required&lt;/span&gt; &lt;span class="kr"&gt;package&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;grid&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Spam&lt;/span&gt; &lt;span class="nx"&gt;version&lt;/span&gt; &lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;09&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;09&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nx"&gt;is&lt;/span&gt; &lt;span class="nx"&gt;loaded&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Type&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;help( Spam)&amp;#39;&lt;/span&gt; &lt;span class="nx"&gt;or&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;demo( spam)&amp;#39;&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;short&lt;/span&gt; &lt;span class="nx"&gt;introduction&lt;/span&gt; 
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;and&lt;/span&gt; &lt;span class="nx"&gt;overview&lt;/span&gt; &lt;span class="nx"&gt;of&lt;/span&gt; &lt;span class="k"&gt;this&lt;/span&gt; &lt;span class="kr"&gt;package&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Help&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;individual&lt;/span&gt; &lt;span class="nx"&gt;functions&lt;/span&gt; &lt;span class="nx"&gt;is&lt;/span&gt; &lt;span class="nx"&gt;also&lt;/span&gt; &lt;span class="nx"&gt;obtained&lt;/span&gt; &lt;span class="nx"&gt;by&lt;/span&gt; &lt;span class="nx"&gt;adding&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;suffix&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;.spam&amp;#39;&lt;/span&gt; &lt;span class="nx"&gt;to&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;g&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;help( chol.spam)&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; 
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Attaching&lt;/span&gt; &lt;span class="kr"&gt;package&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;spam&amp;#39;&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; 
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;The&lt;/span&gt; &lt;span class="nx"&gt;following&lt;/span&gt; &lt;span class="nx"&gt;objects&lt;/span&gt; &lt;span class="nx"&gt;are&lt;/span&gt; &lt;span class="nx"&gt;masked&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;package:base&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; 
+&lt;span class="err"&gt;##&lt;/span&gt;     &lt;span class="nx"&gt;backsolve&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;forwardsolve&lt;/span&gt;
+&lt;span class="err"&gt;##&lt;/span&gt; 
+&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nx"&gt;Loading&lt;/span&gt; &lt;span class="nx"&gt;required&lt;/span&gt; &lt;span class="kr"&gt;package&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;maps&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;caTools&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# for write.gif&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;## Error in library(caTools): there is no package called &amp;#39;caTools&amp;#39;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;m &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;400&lt;/span&gt; &lt;span class="c1"&gt;# grid size&lt;/span&gt;
+m &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;400&lt;/span&gt; &lt;span class="c1"&gt;# grid size&lt;/span&gt;
 C &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;complex&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; real&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kp"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;-1.8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out&lt;span class="o"&gt;=&lt;/span&gt;m&lt;span class="p"&gt;),&lt;/span&gt; each&lt;span class="o"&gt;=&lt;/span&gt;m &lt;span class="p"&gt;),&lt;/span&gt;
 imag&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kp"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;-1.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;1.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out&lt;span class="o"&gt;=&lt;/span&gt;m&lt;span class="p"&gt;),&lt;/span&gt; m &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
 C &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;C&lt;span class="p"&gt;,&lt;/span&gt;m&lt;span class="p"&gt;,&lt;/span&gt;m&lt;span class="p"&gt;)&lt;/span&gt;
@@ -96,15 +103,8 @@ image&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;[,,&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nb"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;image&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="cp"&gt;[&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;k&lt;/span&gt;&lt;span class="cp"&gt;]&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;col&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;tim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;colors&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;256&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;could&lt;/span&gt; &lt;span class="nx"&gt;not&lt;/span&gt; &lt;span class="nx"&gt;find&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tim.colors&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;p&gt;&lt;img alt="plot of chunk unnamed-chunk-2" src="figure/unnamed-chunk-2-1.png" /&gt; &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;write.gif&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Mandelbrot.gif&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; col&lt;span class="o"&gt;=&lt;/span&gt;tim.colors&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;256&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; delay&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nb"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;eval&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;expr&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;envir&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;enclos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;could&lt;/span&gt; &lt;span class="nx"&gt;not&lt;/span&gt; &lt;span class="nx"&gt;find&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;write.gif&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -117,39 +117,39 @@ image&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;[,,&lt;/span&gt;
     y &amp;lt;- round(rnorm(10, x, 1), 2)
     df &amp;lt;- data.frame(x, y)
     df&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;##     x    y
- ## 1   1 1.16
- ## 2   2 1.09
- ## 3   3 3.75
- ## 4   4 5.17
- ## 5   5 4.86
- ## 6   6 6.08
- ## 7   7 7.71
- ## 8   8 7.04
- ## 9   9 9.59
- ## 10 10 9.29&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;##     x     y
+ ## 1   1  0.35
+ ## 2   2  2.84
+ ## 3   3  3.30
+ ## 4   4  3.72
+ ## 5   5  3.12
+ ## 6   6  4.40
+ ## 7   7  8.92
+ ## 8   8  8.82
+ ## 9   9  9.83
+ ## 10 10 10.35&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Create Markdown code from R&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;Here are some dot points
 
-* The value of y[1] is 1.16
-* The value of y[2] is 1.09
-* The value of y[3] is 3.75
+* The value of y[1] is 0.35
+* The value of y[2] is 2.84
+* The value of y[3] is 3.3
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;Create Markdown table code from R&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;x | y
 --- | ---
-1 | 1.16
-2 | 1.09
-3 | 3.75
-4 | 5.17
-5 | 4.86
-6 | 6.08
-7 | 7.71
-8 | 7.04
-9 | 9.59
-10 | 9.29
+1 | 0.35
+2 | 2.84
+3 | 3.3
+4 | 3.72
+5 | 3.12
+6 | 4.4
+7 | 8.92
+8 | 8.82
+9 | 9.83
+10 | 10.35
 &lt;/pre&gt;&lt;/div&gt;
 
 

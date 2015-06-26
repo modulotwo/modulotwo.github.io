@@ -107,8 +107,8 @@ The number <span class="math">\((1,0)\)</span> corresponds to the real number <s
 <p>Every complex number can be written uniquely in algebraic form as <span class="math">\(a+bi\)</span> where <span class="math">\(a,b\)</span> are real numbers. The real number <span class="math">\(a\)</span> is called the <em>real part</em> of <span class="math">\(z\)</span> and denoted by <span class="math">\(Re(z)\)</span>, and the real number <span class="math">\(b\)</span> is called the *imaginary part<span class="math">\( of $z\)</span> and denoted by <span class="math">\(Im(z)\)</span>. </p>
 <p>The <strong>modulus</strong> of a complex number <span class="math">\(z=a+bi\)</span> as <span class="math">\(|z| = \sqrt{a^2+b^2}\)</span>, gives the distance from the origin to <span class="math">\((a,b)\)</span>. </p>
 <p>Given the complex number <span class="math">\(z = a+bi\)</span>, we define the complex number <span class="math">\(a-bi\)</span> as its conjugate which we denote <span class="math">\(\bar{z}\)</span>. </p>
-<p>Note that <span class="math">\(|z| = |\bar{z}|\)</span> since the distance from <span class="math">\((0,0)\)</span> to <span class="math">\((a,b)\)</span> is equal to the distance from <span class="math">\((0,0)\)</span> to <span class="math">\((a,-b)\)</span>. </p>
-<p>Also note that <span class="math">\(|z|^2 = z\bar{z}\)</span>, and the modulus of a complex number satisfies the triangle inequality i.e. <span class="math">\(|z+w| \le |z| + |w|\)</span>. </p>
+<p>Note that <span class="math">\(|z| = |\bar{z}|\)</span>. Why? </p>
+<p>Note that <span class="math">\(|z|^2 = z\bar{z}\)</span>, and the modulus of a complex number satisfies the triangle inequality i.e. <span class="math">\(|z+w| \le |z| + |w|\)</span>. </p>
 <h3>Trigonometric form</h3>
 <h3>Polar form</h3>
 <h2>Some plots</h2>
@@ -120,19 +120,26 @@ The number <span class="math">\((1,0)\)</span> corresponds to the real number <s
 </pre></div>
 
 
-<div class="highlight"><pre>## Error in library(fields): there is no package called &#39;fields&#39;
+<div class="highlight"><pre><span class="err">##</span> <span class="nx">Loading</span> <span class="nx">required</span> <span class="kr">package</span><span class="o">:</span> <span class="nx">spam</span>
+<span class="err">##</span> <span class="nx">Loading</span> <span class="nx">required</span> <span class="kr">package</span><span class="o">:</span> <span class="nx">grid</span>
+<span class="err">##</span> <span class="nx">Spam</span> <span class="nx">version</span> <span class="mf">1.0</span><span class="o">-</span><span class="mi">1</span> <span class="p">(</span><span class="mi">2014</span><span class="o">-</span><span class="mi">09</span><span class="o">-</span><span class="mi">09</span><span class="p">)</span> <span class="nx">is</span> <span class="nx">loaded</span><span class="p">.</span>
+<span class="err">##</span> <span class="nx">Type</span> <span class="s1">&#39;help( Spam)&#39;</span> <span class="nx">or</span> <span class="s1">&#39;demo( spam)&#39;</span> <span class="k">for</span> <span class="nx">a</span> <span class="kr">short</span> <span class="nx">introduction</span> 
+<span class="err">##</span> <span class="nx">and</span> <span class="nx">overview</span> <span class="nx">of</span> <span class="k">this</span> <span class="kr">package</span><span class="p">.</span>
+<span class="err">##</span> <span class="nx">Help</span> <span class="k">for</span> <span class="nx">individual</span> <span class="nx">functions</span> <span class="nx">is</span> <span class="nx">also</span> <span class="nx">obtained</span> <span class="nx">by</span> <span class="nx">adding</span> <span class="nx">the</span>
+<span class="err">##</span> <span class="nx">suffix</span> <span class="s1">&#39;.spam&#39;</span> <span class="nx">to</span> <span class="nx">the</span> <span class="kd">function</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">e</span><span class="p">.</span><span class="nx">g</span><span class="p">.</span> <span class="s1">&#39;help( chol.spam)&#39;</span><span class="p">.</span>
+<span class="err">##</span> 
+<span class="err">##</span> <span class="nx">Attaching</span> <span class="kr">package</span><span class="o">:</span> <span class="s1">&#39;spam&#39;</span>
+<span class="err">##</span> 
+<span class="err">##</span> <span class="nx">The</span> <span class="nx">following</span> <span class="nx">objects</span> <span class="nx">are</span> <span class="nx">masked</span> <span class="nx">from</span> <span class="s1">&#39;package:base&#39;</span><span class="o">:</span>
+<span class="err">##</span> 
+<span class="err">##</span>     <span class="nx">backsolve</span><span class="p">,</span> <span class="nx">forwardsolve</span>
+<span class="err">##</span> 
+<span class="err">##</span> <span class="nx">Loading</span> <span class="nx">required</span> <span class="kr">package</span><span class="o">:</span> <span class="nx">maps</span>
 </pre></div>
 
 
 <div class="highlight"><pre><span class="kn">library</span><span class="p">(</span>caTools<span class="p">)</span> <span class="c1"># for write.gif</span>
-</pre></div>
-
-
-<div class="highlight"><pre>## Error in library(caTools): there is no package called &#39;caTools&#39;
-</pre></div>
-
-
-<div class="highlight"><pre>m <span class="o">=</span> <span class="m">400</span> <span class="c1"># grid size</span>
+m <span class="o">=</span> <span class="m">400</span> <span class="c1"># grid size</span>
 C <span class="o">=</span> <span class="kt">complex</span><span class="p">(</span> real<span class="o">=</span><span class="kp">rep</span><span class="p">(</span><span class="kp">seq</span><span class="p">(</span><span class="m">-1.8</span><span class="p">,</span><span class="m">0.6</span><span class="p">,</span> length.out<span class="o">=</span>m<span class="p">),</span> each<span class="o">=</span>m <span class="p">),</span>
 imag<span class="o">=</span><span class="kp">rep</span><span class="p">(</span><span class="kp">seq</span><span class="p">(</span><span class="m">-1.2</span><span class="p">,</span><span class="m">1.2</span><span class="p">,</span> length.out<span class="o">=</span>m<span class="p">),</span> m <span class="p">)</span> <span class="p">)</span>
 C <span class="o">=</span> <span class="kt">matrix</span><span class="p">(</span>C<span class="p">,</span>m<span class="p">,</span>m<span class="p">)</span>
@@ -148,15 +155,8 @@ image<span class="p">(</span>X<span class="p">[,,</span>k<span class="p">],</spa
 </pre></div>
 
 
-<div class="highlight"><pre><span class="err">##</span> <span class="nb">Error</span> <span class="k">in</span> <span class="nx">image</span><span class="p">.</span><span class="k">default</span><span class="p">(</span><span class="nx">X</span><span class="cp">[</span><span class="p">,</span> <span class="p">,</span> <span class="nx">k</span><span class="cp">]</span><span class="p">,</span> <span class="nx">col</span> <span class="o">=</span> <span class="nx">tim</span><span class="p">.</span><span class="nx">colors</span><span class="p">(</span><span class="mi">256</span><span class="p">))</span><span class="o">:</span> <span class="nx">could</span> <span class="nx">not</span> <span class="nx">find</span> <span class="kd">function</span> <span class="s2">&quot;tim.colors&quot;</span>
-</pre></div>
-
-
+<p><img alt="plot of chunk unnamed-chunk-2" src="figure/unnamed-chunk-2-1.png" /> </p>
 <div class="highlight"><pre>write.gif<span class="p">(</span>X<span class="p">,</span> <span class="s">&quot;Mandelbrot.gif&quot;</span><span class="p">,</span> col<span class="o">=</span>tim.colors<span class="p">(</span><span class="m">256</span><span class="p">),</span> delay<span class="o">=</span><span class="m">100</span><span class="p">)</span>
-</pre></div>
-
-
-<div class="highlight"><pre><span class="err">##</span> <span class="nb">Error</span> <span class="k">in</span> <span class="nb">eval</span><span class="p">(</span><span class="nx">expr</span><span class="p">,</span> <span class="nx">envir</span><span class="p">,</span> <span class="nx">enclos</span><span class="p">)</span><span class="o">:</span> <span class="nx">could</span> <span class="nx">not</span> <span class="nx">find</span> <span class="kd">function</span> <span class="s2">&quot;write.gif&quot;</span>
 </pre></div>
 
 
@@ -169,39 +169,39 @@ image<span class="p">(</span>X<span class="p">[,,</span>k<span class="p">],</spa
     y &lt;- round(rnorm(10, x, 1), 2)
     df &lt;- data.frame(x, y)
     df</code></p>
-<p><code>##     x    y
- ## 1   1 1.16
- ## 2   2 1.09
- ## 3   3 3.75
- ## 4   4 5.17
- ## 5   5 4.86
- ## 6   6 6.08
- ## 7   7 7.71
- ## 8   8 7.04
- ## 9   9 9.59
- ## 10 10 9.29</code></p>
+<p><code>##     x     y
+ ## 1   1  0.35
+ ## 2   2  2.84
+ ## 3   3  3.30
+ ## 4   4  3.72
+ ## 5   5  3.12
+ ## 6   6  4.40
+ ## 7   7  8.92
+ ## 8   8  8.82
+ ## 9   9  9.83
+ ## 10 10 10.35</code></p>
 <h3>Create Markdown code from R</h3>
 <div class="highlight"><pre>Here are some dot points
 
-* The value of y[1] is 1.16
-* The value of y[2] is 1.09
-* The value of y[3] is 3.75
+* The value of y[1] is 0.35
+* The value of y[2] is 2.84
+* The value of y[3] is 3.3
 </pre></div>
 
 
 <h3>Create Markdown table code from R</h3>
 <div class="highlight"><pre>x | y
 --- | ---
-1 | 1.16
-2 | 1.09
-3 | 3.75
-4 | 5.17
-5 | 4.86
-6 | 6.08
-7 | 7.71
-8 | 7.04
-9 | 9.59
-10 | 9.29
+1 | 0.35
+2 | 2.84
+3 | 3.3
+4 | 3.72
+5 | 3.12
+6 | 4.4
+7 | 8.92
+8 | 8.82
+9 | 9.83
+10 | 10.35
 </pre></div>
 
 
