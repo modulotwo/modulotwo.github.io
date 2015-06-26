@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>freeway flyer files</title><link>http://modulotwo.github.io/</link><description></description><atom:link href="http://modulotwo.github.io/feeds/mousa-rebouh.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 24 Jun 2015 00:00:00 -0700</lastBuildDate><item><title>Whatever</title><link>http://modulotwo.github.io/whatever.html</link><description>&lt;p&gt;This is whatever i want. 
-Or it may look like this...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;try 1&lt;/li&gt;
-&lt;li&gt;try 2&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Wed, 24 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-24:whatever.html</guid></item><item><title>My favorite language</title><link>http://modulotwo.github.io/my-favorite-language.html</link><description>&lt;h2&gt;What to say about my favorite language&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;first&lt;/li&gt;
-&lt;li&gt;second&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;third&lt;/p&gt;
-&lt;p&gt;This is some text i tabbed over. How does it look?&lt;/p&gt;
-&lt;h1&gt;not my favorite language&lt;/h1&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;german&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;mandarin&lt;/li&gt;
-&lt;li&gt;bambara&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-19:my-favorite-language.html</guid></item><item><title>Complex Numbers</title><link>http://modulotwo.github.io/complex-numbers.html</link><description>&lt;h2&gt;Introduction&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freeway flyer files</title><link href="http://modulotwo.github.io/" rel="alternate"></link><link href="http://modulotwo.github.io/feeds/math.atom.xml" rel="self"></link><id>http://modulotwo.github.io/</id><updated>2015-05-26T00:00:00-07:00</updated><entry><title>Complex Numbers</title><link href="http://modulotwo.github.io/complex-numbers.html" rel="alternate"></link><updated>2015-05-26T00:00:00-07:00</updated><author><name>Mousa Rebouh</name></author><id>tag:modulotwo.github.io,2015-05-26:complex-numbers.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With the real numbers (denoted as &lt;span class="math"&gt;\(\mathbb{R}\)&lt;/span&gt;) we can overcome some limitations posed by dealing only with the rational numbers (&lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt;), as when dealing with the equation &lt;span class="math"&gt;\(x^2 - 2 = 0\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;But can we come up with an equation having no real solution? Yes. Consider the equation &lt;span class="math"&gt;\(x^2 + 2 = 0\)&lt;/span&gt;.
 Certainly two positive numbers cannot sum to zero! So we define a new kind of number, which we call &lt;strong&gt;complex numbers&lt;/strong&gt; (&lt;span class="math"&gt;\(\mathbb{C}\)&lt;/span&gt;).&lt;/p&gt;
@@ -206,4 +187,4 @@ image&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;[,,&lt;/span&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Tue, 26 May 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-05-26:complex-numbers.html</guid><category>complex</category><category>trigonometry</category></item></channel></rss>
+&lt;/script&gt;</summary><category term="complex"></category><category term="trigonometry"></category></entry></feed>
