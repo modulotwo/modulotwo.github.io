@@ -4,4 +4,225 @@ Or it may look like this...&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;try 1&lt;/li&gt;
 &lt;li&gt;try 2&lt;/li&gt;
-&lt;/ul&gt;</summary></entry></feed>
+&lt;/ul&gt;</summary></entry><entry><title>"Complex Numbers"</title><link href="http://modulotwo.github.io/complex-numbers.html" rel="alternate"></link><updated>2015-05-26T00:00:00-07:00</updated><author><name>"Mousa Rebouh"</name></author><id>tag:modulotwo.github.io,2015-05-26:complex-numbers.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The real numbers (denoted as &lt;span class="math"&gt;\(\mathbb{R}\)&lt;/span&gt;) enable us to overcome certain limitations posed by dealing only with the rational numbers (&lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt;), as certain equations which do not have any rational solution have a real solution. For example, consider the equation &lt;span class="math"&gt;\(x^2 - 2 = 0\)&lt;/span&gt;. Can we come up with an 
+equation having no real solution? Sure, we can. Consider the equation &lt;span class="math"&gt;\(x^2 + 2 = 0\)&lt;/span&gt;. Certainly no two positive numbers can sum to zero! Such equations require that we define a new kind of number, which we will call &lt;strong&gt;complex numbers&lt;/strong&gt; (&lt;span class="math"&gt;\(\mathbb{C}\)&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;The complex numbers or &lt;a href="http://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/"&gt;imaginary numbers&lt;/a&gt; can be added/subtracted and multiplied/divided to produce complex numbers. Such numbers behave nicely as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;every real number is a complex number&lt;/li&gt;
+&lt;li&gt;there is a special number &lt;span class="math"&gt;\(i\)&lt;/span&gt; whose square is &lt;span class="math"&gt;\(-1\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;every complex number can be represented as &lt;span class="math"&gt;\(a+bi\)&lt;/span&gt;, with &lt;span class="math"&gt;\(a,b\)&lt;/span&gt; reals&lt;/li&gt;
+&lt;li&gt;the usual rules of addition and multiplication hold&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The distinguishing fact (to distinguish between &lt;span class="math"&gt;\(\mathbb{R}\)&lt;/span&gt; and &lt;span class="math"&gt;\(\mathbb{C}\)&lt;/span&gt;) is that the equation &lt;span class="math"&gt;\(x^n = z\)&lt;/span&gt; has &lt;span class="math"&gt;\(n\)&lt;/span&gt; distinct solutions for any nonzero complex number &lt;span class="math"&gt;\(z\)&lt;/span&gt; and any positive integer &lt;span class="math"&gt;\(n\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Now we will see a more precise definition and multiple representations of a number &lt;span class="math"&gt;\(z \in \mathbb{C}\)&lt;/span&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;as an ordered pair: &lt;span class="math"&gt;\(z = (a,b)\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;in algebraic form: &lt;span class="math"&gt;\(z = a + bi\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;in trigonometric form: &lt;span class="math"&gt;\(z = |z|(\cos{\theta} + i\sin{\theta})\)&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;in polar form: &lt;span class="math"&gt;\(z = |z|e^{i\theta}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Definitions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ordered pairs &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The collection of ordered pairs &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; with &lt;span class="math"&gt;\(a,b \in \mathbb{R}\)&lt;/span&gt; 
+is called the set of complex numbers with the operations of addition and multiplication defined as follows: 
+&lt;/p&gt;
+&lt;div class="math"&gt;$$(a,b) + (c,d) = (a+c, b+d) ~~and~~ (a,b) \cdot (c,d) = (ac-bd, ad+bc)$$&lt;/div&gt;
+&lt;p&gt;Wait a minute, ordered pairs of real numbers are numbers? Last I checked ordered pairs meant points in the plane. I'm not sure about this. &lt;/p&gt;
+&lt;p&gt;Do these numbers really behave like real numbers? Yes, in fact complex numbers behave even better than the reals. First we'll say that complex numbers have the same properties of addition (associativity, commutativity, zero, additive inverse) as the reals. &lt;/p&gt;
+&lt;p&gt;But what do we make of subtraction? Well, we view it as a special case of addition or as the solution to a linear equation that involves addition. &lt;/p&gt;
+&lt;p&gt;Next, we look at multiplication. We know from real multiplication that the multiplicative inverse of &lt;span class="math"&gt;\(a\)&lt;/span&gt; is the number &lt;span class="math"&gt;\(b\)&lt;/span&gt; such that &lt;span class="math"&gt;\(a \cdot b = 1\)&lt;/span&gt;. With complex numbers as pairs, we have that the multiplicative inverse of &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; is &lt;span class="math"&gt;\(\left(\frac{a}{a^2+b^2}, \frac{-b}{a^2+b^2}\right)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;And we view division as a special case of multiplication or as the solution of a linear equation that involves multiplication. &lt;/p&gt;
+&lt;p&gt;Note: all complex numbers of the form &lt;span class="math"&gt;\((a,0)\)&lt;/span&gt; correspond to the real numbers, so we say that the reals are a subset of the complex numbers. &lt;/p&gt;
+&lt;p&gt;Note: all complex numbers &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; can be uniquely written as &lt;span class="math"&gt;\(a(1,0) + b(0,1)\)&lt;/span&gt;, as a linear combination of the complex numbers &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; and &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;. The number &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; corresponds to the real number &lt;span class="math"&gt;\(1\)&lt;/span&gt;, but what is the meaning of &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;? If we multiply this number by itself, its square yields the real number &lt;span class="math"&gt;\(-1\)&lt;/span&gt;. This allows us to say that &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt; is the square root of &lt;span class="math"&gt;\(-1\)&lt;/span&gt;, which we denote by &lt;span class="math"&gt;\(i\)&lt;/span&gt;. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Algebraic form &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Every number &lt;span class="math"&gt;\(z \in \mathbb{C}\)&lt;/span&gt; can be written uniquely as a linear combination of &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; and &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;, so it can be written uniquely in algebraic form as &lt;span class="math"&gt;\(a+bi\)&lt;/span&gt; where &lt;span class="math"&gt;\(a,b\)&lt;/span&gt; are real numbers. The real number &lt;span class="math"&gt;\(a\)&lt;/span&gt; is called the &lt;em&gt;real part&lt;/em&gt; of &lt;span class="math"&gt;\(z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Re(z)\)&lt;/span&gt;, and the real number &lt;span class="math"&gt;\(b\)&lt;/span&gt; is called the *imaginary part&lt;span class="math"&gt;\( of $z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Im(z)\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;We define the &lt;strong&gt;modulus&lt;/strong&gt; of a complex number &lt;span class="math"&gt;\(z=a+bi\)&lt;/span&gt; as &lt;span class="math"&gt;\(|z| = \sqrt{a^2+b^2}\)&lt;/span&gt;, which geometrically refers to the distance from the origin to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Given the complex number &lt;span class="math"&gt;\(z = a+bi\)&lt;/span&gt;, we define the complex number &lt;span class="math"&gt;\(a-bi\)&lt;/span&gt; as its conjugate which we denote &lt;span class="math"&gt;\(\bar{z}\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Note that &lt;span class="math"&gt;\(|z| = |\bar{z}|\)&lt;/span&gt; since the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; is equal to the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,-b)\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Also note that &lt;span class="math"&gt;\(|z|^2 = z\bar{z}\)&lt;/span&gt;, and the modulus of a complex number satisfies the triangle inequality i.e. &lt;span class="math"&gt;\(|z+w| \le |z| + |w|\)&lt;/span&gt;. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Trigonometric form&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Polar form&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Some plots&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="plot of chunk unnamed-chunk-1" src="figure/unnamed-chunk-1-1.png" /&gt; &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;### Reproduced from http://tolstoy.newcastle.edu.au/R/help/05/10/13198.html&lt;/span&gt;
+&lt;span class="c1"&gt;### Written by Jarek Tuszynski, PhD.&lt;/span&gt;
+
+&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;fields&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# for tim.colors&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;## Error in library(fields): there is no package called &amp;#39;fields&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;caTools&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# for write.gif&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;## Error in library(caTools): there is no package called &amp;#39;caTools&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;m &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;400&lt;/span&gt; &lt;span class="c1"&gt;# grid size&lt;/span&gt;
+C &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;complex&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; real&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kp"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;-1.8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out&lt;span class="o"&gt;=&lt;/span&gt;m&lt;span class="p"&gt;),&lt;/span&gt; each&lt;span class="o"&gt;=&lt;/span&gt;m &lt;span class="p"&gt;),&lt;/span&gt;
+imag&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kp"&gt;rep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kp"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;-1.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;1.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; length.out&lt;span class="o"&gt;=&lt;/span&gt;m&lt;span class="p"&gt;),&lt;/span&gt; m &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+C &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;C&lt;span class="p"&gt;,&lt;/span&gt;m&lt;span class="p"&gt;,&lt;/span&gt;m&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+Z &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;
+X &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;m&lt;span class="p"&gt;,&lt;/span&gt;m&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;20&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="kr"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;k &lt;span class="kr"&gt;in&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="m"&gt;20&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+Z &lt;span class="o"&gt;=&lt;/span&gt; Z&lt;span class="o"&gt;^&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;C
+X&lt;span class="p"&gt;[,,&lt;/span&gt;k&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;exp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kp"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;Z&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+image&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;[,,&lt;/span&gt;k&lt;span class="p"&gt;],&lt;/span&gt; col&lt;span class="o"&gt;=&lt;/span&gt;tim.colors&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;256&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="c1"&gt;# show final image in&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nb"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;image&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="cp"&gt;[&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;k&lt;/span&gt;&lt;span class="cp"&gt;]&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;col&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;tim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;colors&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;256&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;could&lt;/span&gt; &lt;span class="nx"&gt;not&lt;/span&gt; &lt;span class="nx"&gt;find&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tim.colors&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;write.gif&lt;span class="p"&gt;(&lt;/span&gt;X&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Mandelbrot.gif&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; col&lt;span class="o"&gt;=&lt;/span&gt;tim.colors&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;256&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; delay&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;##&lt;/span&gt; &lt;span class="nb"&gt;Error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;eval&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;expr&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;envir&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;enclos&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;could&lt;/span&gt; &lt;span class="nx"&gt;not&lt;/span&gt; &lt;span class="nx"&gt;find&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;write.gif&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="Alt text" src="Mandelbrot.gif" title="Image call example" /&gt;&lt;/p&gt;
+&lt;h3&gt;Equations&lt;/h3&gt;
+&lt;p&gt;Equations are included by using LaTeX notation and including them either between single dollar signs (inline equations) or double dollar signs (displayed equations).
+If you hang around the Q&amp;amp;A site &lt;a href="http://stats.stackexchange.com"&gt;CrossValidated&lt;/a&gt; you'll be familiar with this idea.&lt;/p&gt;
+&lt;p&gt;There are inline equations such as &lt;span class="math"&gt;\(y_i = \alpha + \beta x_i + e_i\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;And displayed formulas:&lt;/p&gt;
+&lt;div class="math"&gt;$$\frac{1}{1+\exp(-x)}$$&lt;/div&gt;
+&lt;p&gt;knitr provides self-contained HTML code that calls a Mathjax script to display formulas.
+However, in order to include the script in my blog posts I &lt;a href="https://gist.github.com/2716053"&gt;took the script&lt;/a&gt; and incorporated it into my blogger template.
+If you are viewing this post through syndication or an RSS reader, this may not work.
+You may need to view this post on my website. &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;r
+    x &amp;lt;- 1:10
+    y &amp;lt;- round(rnorm(10, x, 1), 2)
+    df &amp;lt;- data.frame(x, y)
+    df&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;##     x    y
+ ## 1   1 2.22
+ ## 2   2 2.09
+ ## 3   3 4.35
+ ## 4   4 4.67
+ ## 5   5 4.67
+ ## 6   6 6.89
+ ## 7   7 6.93
+ ## 8   8 7.25
+ ## 9   9 9.87
+ ## 10 10 8.61&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;R Code chunk features&lt;/h2&gt;
+&lt;h3&gt;Create Markdown code from R&lt;/h3&gt;
+&lt;p&gt;The following code hides the command input (i.e., &lt;code&gt;echo=FALSE&lt;/code&gt;), and outputs the content directly as code (i.e., &lt;code&gt;results=asis&lt;/code&gt;, which is similar to &lt;code&gt;results=tex&lt;/code&gt; in Sweave).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Here are some dot points
+
+* The value of y[1] is 2.22
+* The value of y[2] is 2.09
+* The value of y[3] is 4.35
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Here are some dot points&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The value of y[1] is 2.22&lt;/li&gt;
+&lt;li&gt;The value of y[2] is 2.09&lt;/li&gt;
+&lt;li&gt;The value of y[3] is 4.35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Create Markdown table code from R&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;x | y
+--- | ---
+1 | 2.22
+2 | 2.09
+3 | 4.35
+4 | 4.67
+5 | 4.67
+6 | 6.89
+7 | 6.93
+8 | 7.25
+9 | 9.87
+10 | 8.61
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;## Loading required package: Cairo
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called &amp;#39;Cairo&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="plot of chunk unnamed-chunk-6" src="figure/unnamed-chunk-6-1.png" /&gt; &lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><category term="[complex"></category><category term="trigonometry]"></category></entry></feed>
