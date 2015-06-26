@@ -18,4 +18,137 @@ Or it may look like this...&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;mandarin&lt;/li&gt;
 &lt;li&gt;bambara&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-19:my-favorite-language.html</guid></item></channel></rss>
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mousa Rebouh</dc:creator><pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-06-19:my-favorite-language.html</guid></item><item><title>"Complex Numbers"</title><link>http://modulotwo.github.io/complex-numbers.html</link><description>&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The real numbers (denoted as $\mathbb{R}$) enable us to overcome certain limitations posed by dealing only with the rational numbers ($\mathbb{Q}$), as certain equations which do not have any rational solution have a real solution. For example, consider the equation $x^2 - 2 = 0$. Can we come up with an 
+equation having no real solution? Sure, we can. Consider the equation $x^2 + 2 = 0$. Certainly no two positive numbers can sum to zero! Such equations require that we define a new kind of number, which we will call &lt;strong&gt;complex numbers&lt;/strong&gt; ($\mathbb{C}$).&lt;/p&gt;
+&lt;p&gt;The complex numbers or &lt;a href="http://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/"&gt;imaginary numbers&lt;/a&gt; can be added/subtracted and multiplied/divided to produce complex numbers. Such numbers behave nicely as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;every real number is a complex number&lt;/li&gt;
+&lt;li&gt;there is a special number $i$ whose square is $-1$&lt;/li&gt;
+&lt;li&gt;every complex number can be represented as $a+bi$, with $a,b$ reals&lt;/li&gt;
+&lt;li&gt;the usual rules of addition and multiplication hold&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The distinguishing fact (to distinguish between $\mathbb{R}$ and $\mathbb{C}$) is that the equation $x^n = z$ has $n$ distinct solutions for any nonzero complex number $z$ and any positive integer $n$. &lt;/p&gt;
+&lt;p&gt;Now we will see a more precise definition and multiple representations of a number $z \in \mathbb{C}$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;as an ordered pair: $z = (a,b)$&lt;/li&gt;
+&lt;li&gt;in algebraic form: $z = a + bi$&lt;/li&gt;
+&lt;li&gt;in trigonometric form: $z = |z|(\cos{\theta} + i\sin{\theta})$ &lt;/li&gt;
+&lt;li&gt;in polar form: $z = |z|e^{i\theta}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Definitions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ordered pairs &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The collection of ordered pairs $(a,b)$ with $a,b \in \mathbb{R}$ 
+is called the set of complex numbers with the operations of addition and multiplication defined as follows: 
+$$(a,b) + (c,d) = (a+c, b+d) ~~and~~ (a,b) \cdot (c,d) = (ac-bd, ad+bc)$$&lt;/p&gt;
+&lt;p&gt;Wait a minute, ordered pairs of real numbers are numbers? Last I checked ordered pairs meant points in the plane. I'm not sure about this. &lt;/p&gt;
+&lt;p&gt;Do these numbers really behave like real numbers? Yes, in fact complex numbers behave even better than the reals. First we'll say that complex numbers have the same properties of addition (associativity, commutativity, zero, additive inverse) as the reals. &lt;/p&gt;
+&lt;p&gt;But what do we make of subtraction? Well, we view it as a special case of addition or as the solution to a linear equation that involves addition. &lt;/p&gt;
+&lt;p&gt;Next, we look at multiplication. We know from real multiplication that the multiplicative inverse of $a$ is the number $b$ such that $a \cdot b = 1$. With complex numbers as pairs, we have that the multiplicative inverse of $(a,b)$ is $\left(\frac{a}{a^2+b^2}, \frac{-b}{a^2+b^2}\right)$.&lt;/p&gt;
+&lt;p&gt;And we view division as a special case of multiplication or as the solution of a linear equation that involves multiplication. &lt;/p&gt;
+&lt;p&gt;Note: all complex numbers of the form $(a,0)$ correspond to the real numbers, so we say that the reals are a subset of the complex numbers. &lt;/p&gt;
+&lt;p&gt;Note: all complex numbers $(a,b)$ can be uniquely written as $a(1,0) + b(0,1)$, as a linear combination of the complex numbers $(1,0)$ and $(0,1)$. The number $(1,0)$ corresponds to the real number $1$, but what is the meaning of $(0,1)$? If we multiply this number by itself, its square yields the real number $-1$. This allows us to say that $(0,1)$ is the square root of $-1$, which we denote by $i$. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Algebraic form &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Every number $z \in \mathbb{C}$ can be written uniquely as a linear combination of $(1,0)$ and $(0,1)$, so it can be written uniquely in algebraic form as $a+bi$ where $a,b$ are real numbers. The real number $a$ is called the &lt;em&gt;real part&lt;/em&gt; of $z$ and denoted by $Re(z)$, and the real number $b$ is called the *imaginary part$ of $z$ and denoted by $Im(z)$. &lt;/p&gt;
+&lt;p&gt;We define the &lt;strong&gt;modulus&lt;/strong&gt; of a complex number $z=a+bi$ as $|z| = \sqrt{a^2+b^2}$, which geometrically refers to the distance from the origin to $(a,b)$. &lt;/p&gt;
+&lt;p&gt;Given the complex number $z = a+bi$, we define the complex number $a-bi$ as its conjugate which we denote $\bar{z}$. &lt;/p&gt;
+&lt;p&gt;Note that $|z| = |\bar{z}|$ since the distance from $(0,0)$ to $(a,b)$ is equal to the distance from $(0,0)$ to $(a,-b)$. &lt;/p&gt;
+&lt;p&gt;Also note that $|z|^2 = z\bar{z}$, and the modulus of a complex number satisfies the triangle inequality i.e. $|z+w| \le |z| + |w|$. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Trigonometric form&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Polar form&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Some plots&lt;/h2&gt;
+&lt;p&gt;```{r, echo=FALSE}
+zz &amp;lt;- (rep(1:4, len = 9) + 1i*(9:1))/10
+zz.shift &amp;lt;- complex(modulus = Mod(zz), argument = Arg(zz) + pi)
+plot(zz, xlim = c(-1,1), ylim = c(-1,1), col = "red", asp = 1,
+         main = expression(paste("Rotation by "," ", pi == 180^o)))
+abline(h = 0, v = 0, col = "blue", lty = 3)
+points(zz.shift, col = "orange")&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;```{r}
+### Reproduced from http://tolstoy.newcastle.edu.au/R/help/05/10/13198.html
+### Written by Jarek Tuszynski, PhD.
+
+library(fields) # for tim.colors
+library(caTools) # for write.gif
+m = 400 # grid size
+C = complex( real=rep(seq(-1.8,0.6, length.out=m), each=m ),
+imag=rep(seq(-1.2,1.2, length.out=m), m ) )
+C = matrix(C,m,m)
+
+
+Z = 0
+X = array(0, c(m,m,20))
+for (k in 1:20) {
+Z = Z^2+C
+X[,,k] = exp(-abs(Z))
+}
+image(X[,,k], col=tim.colors(256)) # show final image in
+write.gif(X, &amp;quot;Mandelbrot.gif&amp;quot;, col=tim.colors(256), delay=100)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="Alt text" src="Mandelbrot.gif" title="Image call example" /&gt;&lt;/p&gt;
+&lt;h3&gt;Equations&lt;/h3&gt;
+&lt;p&gt;Equations are included by using LaTeX notation and including them either between single dollar signs (inline equations) or double dollar signs (displayed equations).
+If you hang around the Q&amp;amp;A site &lt;a href="http://stats.stackexchange.com"&gt;CrossValidated&lt;/a&gt; you'll be familiar with this idea.&lt;/p&gt;
+&lt;p&gt;There are inline equations such as $y_i = \alpha + \beta x_i + e_i$.&lt;/p&gt;
+&lt;p&gt;And displayed formulas:&lt;/p&gt;
+&lt;p&gt;$$\frac{1}{1+\exp(-x)}$$&lt;/p&gt;
+&lt;p&gt;knitr provides self-contained HTML code that calls a Mathjax script to display formulas.
+However, in order to include the script in my blog posts I &lt;a href="https://gist.github.com/2716053"&gt;took the script&lt;/a&gt; and incorporated it into my blogger template.
+If you are viewing this post through syndication or an RSS reader, this may not work.
+You may need to view this post on my website. &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;{r }
+    x &amp;lt;- 1:10
+    y &amp;lt;- round(rnorm(10, x, 1), 2)
+    df &amp;lt;- data.frame(x, y)
+    df&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;R Code chunk features&lt;/h2&gt;
+&lt;h3&gt;Create Markdown code from R&lt;/h3&gt;
+&lt;p&gt;The following code hides the command input (i.e., &lt;code&gt;echo=FALSE&lt;/code&gt;), and outputs the content directly as code (i.e., &lt;code&gt;results=asis&lt;/code&gt;, which is similar to &lt;code&gt;results=tex&lt;/code&gt; in Sweave).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;```{r , results=&amp;#39;asis&amp;#39;, echo=FALSE}
+cat(&amp;quot;Here are some dot points\n\n&amp;quot;)
+cat(paste(&amp;quot;* The value of y[&amp;quot;, 1:3, &amp;quot;] is &amp;quot;, y[1:3], sep=&amp;quot;&amp;quot;, collapse=&amp;quot;\n&amp;quot;))
+```
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;```{r dotpointprint, results='asis', echo=FALSE}
+cat("Here are some dot points\n\n")
+cat(paste("* The value of y[", 1:3, "] is ", y[1:3], sep="", collapse="\n"))&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;###&lt;/span&gt; &lt;span class="nx"&gt;Create&lt;/span&gt; &lt;span class="nx"&gt;Markdown&lt;/span&gt; &lt;span class="nx"&gt;table&lt;/span&gt; &lt;span class="nx"&gt;code&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="nx"&gt;R&lt;/span&gt;
+    &lt;span class="err"&gt;```&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;results&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;asis&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;echo&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;FALSE&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="nx"&gt;cat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;x | y&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;--- | ---&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;sep&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;\n&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;cat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;apply&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;df&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nx"&gt;paste&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;collapse&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot; | &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt; &lt;span class="nx"&gt;sep&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;\n&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="err"&gt;```&lt;/span&gt;
+
+&lt;span class="err"&gt;```&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;echo&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;FALSE&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;Cairo&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;CairoPNG&amp;#39;&lt;/span&gt;
+&lt;span class="nx"&gt;set&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;seed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;20121108&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="nx"&gt;runif&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.05&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.05&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;y1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="nx"&gt;y2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;draw&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="nx"&gt;lines&lt;/span&gt; &lt;span class="nx"&gt;and&lt;/span&gt; &lt;span class="nx"&gt;texts&lt;/span&gt;
+&lt;span class="nx"&gt;par&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;mar&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nx"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="nx"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nx"&gt;grid&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="nx"&gt;matplot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;cbind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;y1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;y2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;y2&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;l&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;lty&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;col&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;black&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;&amp;quot;white&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;red&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;lwd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;add&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;TRUE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;axis&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;YARD&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;STEPS&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DOOR&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;INSIDE&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;lwd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="nx"&gt;line&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;text&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.25&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;A SIN AND COS CURVE&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;cex&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;1.5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.5&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;runif&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;0.005&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.005&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nx"&gt;xpd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;NA&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;lwd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">"Mousa Rebouh"</dc:creator><pubDate>Tue, 26 May 2015 00:00:00 -0700</pubDate><guid>tag:modulotwo.github.io,2015-05-26:complex-numbers.html</guid><category>[complex</category><category>trigonometry]</category></item></channel></rss>
