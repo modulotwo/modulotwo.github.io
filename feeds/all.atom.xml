@@ -28,8 +28,8 @@ equation having no real solution? Sure, we can. Consider the equation &lt;span c
 &lt;li&gt;every complex number can be represented as &lt;span class="math"&gt;\(a+bi\)&lt;/span&gt;, with &lt;span class="math"&gt;\(a,b\)&lt;/span&gt; reals&lt;/li&gt;
 &lt;li&gt;the usual rules of addition and multiplication hold&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The distinguishing fact (to distinguish between &lt;span class="math"&gt;\(\mathbb{R}\)&lt;/span&gt; and &lt;span class="math"&gt;\(\mathbb{C}\)&lt;/span&gt;) is that the equation &lt;span class="math"&gt;\(x^n = z\)&lt;/span&gt; has &lt;span class="math"&gt;\(n\)&lt;/span&gt; distinct solutions for any nonzero complex number &lt;span class="math"&gt;\(z\)&lt;/span&gt; and any positive integer &lt;span class="math"&gt;\(n\)&lt;/span&gt;. &lt;/p&gt;
-&lt;p&gt;Now we will see a more precise definition and multiple representations of a number &lt;span class="math"&gt;\(z \in \mathbb{C}\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;The distinguishing fact (&lt;span class="math"&gt;\(\mathbb{R}\)&lt;/span&gt; vs &lt;span class="math"&gt;\(\mathbb{C}\)&lt;/span&gt;) is that the equation &lt;span class="math"&gt;\(x^n = z\)&lt;/span&gt; has &lt;span class="math"&gt;\(n\)&lt;/span&gt; distinct solutions for any nonzero complex number &lt;span class="math"&gt;\(z\)&lt;/span&gt; and any positive integer &lt;span class="math"&gt;\(n\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Now for multiple representations of a number &lt;span class="math"&gt;\(z \in \mathbb{C}\)&lt;/span&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;as an ordered pair: &lt;span class="math"&gt;\(z = (a,b)\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;in algebraic form: &lt;span class="math"&gt;\(z = a + bi\)&lt;/span&gt;&lt;/li&gt;
@@ -37,9 +37,7 @@ equation having no real solution? Sure, we can. Consider the equation &lt;span c
 &lt;li&gt;in polar form: &lt;span class="math"&gt;\(z = |z|e^{i\theta}\)&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Definitions&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Ordered pairs &lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2&gt;Ordered pairs&lt;/h2&gt;
 &lt;p&gt;The collection of ordered pairs &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; with &lt;span class="math"&gt;\(a,b \in \mathbb{R}\)&lt;/span&gt; 
 is called the set of complex numbers with the operations of addition and multiplication defined as follows: 
 &lt;/p&gt;
@@ -51,22 +49,14 @@ is called the set of complex numbers with the operations of addition and multipl
 &lt;p&gt;And we view division as a special case of multiplication or as the solution of a linear equation that involves multiplication. &lt;/p&gt;
 &lt;p&gt;Note: all complex numbers of the form &lt;span class="math"&gt;\((a,0)\)&lt;/span&gt; correspond to the real numbers, so we say that the reals are a subset of the complex numbers. &lt;/p&gt;
 &lt;p&gt;Note: all complex numbers &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; can be uniquely written as &lt;span class="math"&gt;\(a(1,0) + b(0,1)\)&lt;/span&gt;, as a linear combination of the complex numbers &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; and &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;. The number &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; corresponds to the real number &lt;span class="math"&gt;\(1\)&lt;/span&gt;, but what is the meaning of &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;? If we multiply this number by itself, its square yields the real number &lt;span class="math"&gt;\(-1\)&lt;/span&gt;. This allows us to say that &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt; is the square root of &lt;span class="math"&gt;\(-1\)&lt;/span&gt;, which we denote by &lt;span class="math"&gt;\(i\)&lt;/span&gt;. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Algebraic form &lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2&gt;Algebraic form&lt;/h2&gt;
 &lt;p&gt;Every number &lt;span class="math"&gt;\(z \in \mathbb{C}\)&lt;/span&gt; can be written uniquely as a linear combination of &lt;span class="math"&gt;\((1,0)\)&lt;/span&gt; and &lt;span class="math"&gt;\((0,1)\)&lt;/span&gt;, so it can be written uniquely in algebraic form as &lt;span class="math"&gt;\(a+bi\)&lt;/span&gt; where &lt;span class="math"&gt;\(a,b\)&lt;/span&gt; are real numbers. The real number &lt;span class="math"&gt;\(a\)&lt;/span&gt; is called the &lt;em&gt;real part&lt;/em&gt; of &lt;span class="math"&gt;\(z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Re(z)\)&lt;/span&gt;, and the real number &lt;span class="math"&gt;\(b\)&lt;/span&gt; is called the *imaginary part&lt;span class="math"&gt;\( of $z\)&lt;/span&gt; and denoted by &lt;span class="math"&gt;\(Im(z)\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;We define the &lt;strong&gt;modulus&lt;/strong&gt; of a complex number &lt;span class="math"&gt;\(z=a+bi\)&lt;/span&gt; as &lt;span class="math"&gt;\(|z| = \sqrt{a^2+b^2}\)&lt;/span&gt;, which geometrically refers to the distance from the origin to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;Given the complex number &lt;span class="math"&gt;\(z = a+bi\)&lt;/span&gt;, we define the complex number &lt;span class="math"&gt;\(a-bi\)&lt;/span&gt; as its conjugate which we denote &lt;span class="math"&gt;\(\bar{z}\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;Note that &lt;span class="math"&gt;\(|z| = |\bar{z}|\)&lt;/span&gt; since the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,b)\)&lt;/span&gt; is equal to the distance from &lt;span class="math"&gt;\((0,0)\)&lt;/span&gt; to &lt;span class="math"&gt;\((a,-b)\)&lt;/span&gt;. &lt;/p&gt;
 &lt;p&gt;Also note that &lt;span class="math"&gt;\(|z|^2 = z\bar{z}\)&lt;/span&gt;, and the modulus of a complex number satisfies the triangle inequality i.e. &lt;span class="math"&gt;\(|z+w| \le |z| + |w|\)&lt;/span&gt;. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Trigonometric form&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Polar form&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2&gt;Trigonometric form&lt;/h2&gt;
+&lt;h2&gt;Polar form&lt;/h2&gt;
 &lt;h2&gt;Some plots&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="plot of chunk unnamed-chunk-1" src="figure/unnamed-chunk-1-1.png" /&gt; &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;### Reproduced from http://tolstoy.newcastle.edu.au/R/help/05/10/13198.html&lt;/span&gt;
@@ -123,56 +113,45 @@ If you hang around the Q&amp;amp;A site &lt;a href="http://stats.stackexchange.c
 &lt;p&gt;There are inline equations such as &lt;span class="math"&gt;\(y_i = \alpha + \beta x_i + e_i\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;And displayed formulas:&lt;/p&gt;
 &lt;div class="math"&gt;$$\frac{1}{1+\exp(-x)}$$&lt;/div&gt;
-&lt;p&gt;knitr provides self-contained HTML code that calls a Mathjax script to display formulas.
-However, in order to include the script in my blog posts I &lt;a href="https://gist.github.com/2716053"&gt;took the script&lt;/a&gt; and incorporated it into my blogger template.
-If you are viewing this post through syndication or an RSS reader, this may not work.
-You may need to view this post on my website. &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;r
     x &amp;lt;- 1:10
     y &amp;lt;- round(rnorm(10, x, 1), 2)
     df &amp;lt;- data.frame(x, y)
     df&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;##     x    y
- ## 1   1 2.22
- ## 2   2 2.09
- ## 3   3 4.35
- ## 4   4 4.67
- ## 5   5 4.67
- ## 6   6 6.89
- ## 7   7 6.93
- ## 8   8 7.25
- ## 9   9 9.87
- ## 10 10 8.61&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;##     x     y
+ ## 1   1  2.27
+ ## 2   2  1.84
+ ## 3   3  3.27
+ ## 4   4  3.46
+ ## 5   5  4.87
+ ## 6   6  6.75
+ ## 7   7  6.79
+ ## 8   8  6.91
+ ## 9   9  8.66
+ ## 10 10 10.29&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;R Code chunk features&lt;/h2&gt;
 &lt;h3&gt;Create Markdown code from R&lt;/h3&gt;
-&lt;p&gt;The following code hides the command input (i.e., &lt;code&gt;echo=FALSE&lt;/code&gt;), and outputs the content directly as code (i.e., &lt;code&gt;results=asis&lt;/code&gt;, which is similar to &lt;code&gt;results=tex&lt;/code&gt; in Sweave).&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;Here are some dot points
 
-* The value of y[1] is 2.22
-* The value of y[2] is 2.09
-* The value of y[3] is 4.35
+* The value of y[1] is 2.27
+* The value of y[2] is 1.84
+* The value of y[3] is 3.27
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Here are some dot points&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The value of y[1] is 2.22&lt;/li&gt;
-&lt;li&gt;The value of y[2] is 2.09&lt;/li&gt;
-&lt;li&gt;The value of y[3] is 4.35&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;Create Markdown table code from R&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;x | y
 --- | ---
-1 | 2.22
-2 | 2.09
-3 | 4.35
-4 | 4.67
-5 | 4.67
-6 | 6.89
-7 | 6.93
-8 | 7.25
-9 | 9.87
-10 | 8.61
+1 | 2.27
+2 | 1.84
+3 | 3.27
+4 | 3.46
+5 | 4.87
+6 | 6.75
+7 | 6.79
+8 | 6.91
+9 | 8.66
+10 | 10.29
 &lt;/pre&gt;&lt;/div&gt;
 
 
