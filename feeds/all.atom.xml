@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freeway flyer files</title><link href="http://modulotwo.github.io/" rel="alternate"></link><link href="http://modulotwo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://modulotwo.github.io/</id><updated>2015-06-24T00:00:00-07:00</updated><entry><title>Whatever</title><link href="http://modulotwo.github.io/whatever.html" rel="alternate"></link><updated>2015-06-24T00:00:00-07:00</updated><author><name>Mousa Rebouh</name></author><id>tag:modulotwo.github.io,2015-06-24:whatever.html</id><summary type="html">&lt;p&gt;This is whatever i want. 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freeway flyer files</title><link href="http://modulotwo.github.io/" rel="alternate"></link><link href="http://modulotwo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://modulotwo.github.io/</id><updated>2015-08-03T00:00:00-07:00</updated><entry><title>Error Analysis::Strategy for Success</title><link href="http://modulotwo.github.io/error-analysisstrategy-for-success.html" rel="alternate"></link><updated>2015-08-03T00:00:00-07:00</updated><author><name>Mousa Rebouh</name></author><id>tag:modulotwo.github.io,2015-08-03:error-analysisstrategy-for-success.html</id><summary type="html">&lt;p&gt;Q: What to do grade when a teacher returns a test?
+A: Look at the grade, and make a paper plane! Yay!&lt;/p&gt;
+&lt;p&gt;This post will suggest a simple strategy for you to analyze your tests. 
+The approach will help you devise a basic guide to classify your mistakes. &lt;/p&gt;
+&lt;p&gt;Look at your test, and identify your mistakes. Then proceed to label your mistakes as: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;careless error -- i knew what to do but somewhere along the way i made small mistake&lt;/li&gt;
+&lt;li&gt;clueless error -- i had no idea what to do&lt;/li&gt;
+&lt;li&gt;unprepared -- i did not know what to do because i did not review my notes and/or i was not thorough in doing my homework &lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>Whatever</title><link href="http://modulotwo.github.io/whatever.html" rel="alternate"></link><updated>2015-06-24T00:00:00-07:00</updated><author><name>Mousa Rebouh</name></author><id>tag:modulotwo.github.io,2015-06-24:whatever.html</id><summary type="html">&lt;p&gt;This is whatever i want. 
 Or it may look like this...&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;try 1&lt;/li&gt;
